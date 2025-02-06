@@ -18,7 +18,7 @@ botocore==1.35.66
     # via
     #   boto3
     #   s3transfer
-certifi==2024.8.30
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.4.0
     # via requests
@@ -44,7 +44,7 @@ flake8==7.1.1
     # via -r requirements-dev.in
 hypothesis==6.113.0
     # via -r requirements-test.in
-idna==3.10
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -52,7 +52,7 @@ iniconfig==2.0.0
     # via pytest
 isort==5.13.2
     # via pylint
-jinja2==3.1.4
+jinja2==3.1.5
     # via sphinx
 jmespath==1.0.1
     # via
@@ -101,7 +101,7 @@ python-dateutil==2.9.0.post0
     # via botocore
 pytz==2024.2
     # via babel
-requests==2.32.3
+requests==2.32.2
     # via
     #   -r requirements-test.in
     #   sphinx
@@ -152,7 +152,7 @@ typing-extensions==4.12.2
     #   astroid
     #   mypy
     #   pylint
-urllib3==1.26.20
+urllib3==1.26.19
     # via
     #   botocore
     #   requests
